@@ -9,4 +9,10 @@ group :test do
   gem 'capybara'
   gem 'sinatra'
   gem 'rspec-sinatra'
+  gem 'data_mapper'
+  gem 'dm-postgres-adapter'
+  gem 'dm-migrations'
+  gem 'database_cleaner'
+  gem 'bcrypt'
+  gem 'rack'
 end

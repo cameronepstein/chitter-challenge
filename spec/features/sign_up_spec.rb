@@ -1,11 +1,7 @@
-feature 'Sign in' do
-
-  require 'web_helper'
-
-
+feature 'Sign up' do
   scenario 'It allows user to sign up' do
     sign_up
-    expect(page).to have_content "Welcome cameron@gmail.com"
+    expect(page).to have_content "Welcome"
   end
 end
 #   scenario 'it returns error if details are incorrect' do
