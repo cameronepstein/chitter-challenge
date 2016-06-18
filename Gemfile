@@ -6,5 +6,7 @@ group :test do
   gem 'cucumber'
   gem 'rake'
   gem 'coveralls', require: false
+  gem 'capybara'
+  gem 'sinatra'
+  gem 'rspec-sinatra'
 end
-
