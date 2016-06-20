@@ -15,4 +15,5 @@ group :test do
   gem 'database_cleaner'
   gem 'bcrypt'
   gem 'rack'
+  gem 'sinatra-flash'
 end
